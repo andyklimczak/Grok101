@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B69DEFB1D74C96200588580 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B69DEFA1D74C96200588580 /* Todo.swift */; };
+		1B69DEFD1D74CC6200588580 /* TodoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B69DEFC1D74CC6200588580 /* TodoRouter.swift */; };
+		1B69DEFF1D74D20E00588580 /* AlamofireRequest+JSONSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B69DEFE1D74D20E00588580 /* AlamofireRequest+JSONSerializable.swift */; };
 		1B88B6D11D74A9A7007E5044 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B88B6D01D74A9A7007E5044 /* AppDelegate.swift */; };
 		1B88B6D31D74A9A7007E5044 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B88B6D21D74A9A7007E5044 /* ViewController.swift */; };
 		1B88B6D61D74A9A7007E5044 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B88B6D41D74A9A7007E5044 /* Main.storyboard */; };
@@ -38,6 +41,9 @@
 
 /* Begin PBXFileReference section */
 		02983058614DA82E0BE00083 /* Pods-Grok101UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grok101UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Grok101UITests/Pods-Grok101UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B69DEFA1D74C96200588580 /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		1B69DEFC1D74CC6200588580 /* TodoRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoRouter.swift; sourceTree = "<group>"; };
+		1B69DEFE1D74D20E00588580 /* AlamofireRequest+JSONSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AlamofireRequest+JSONSerializable.swift"; sourceTree = "<group>"; };
 		1B88B6CD1D74A9A7007E5044 /* Grok101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grok101.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B88B6D01D74A9A7007E5044 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B88B6D21D74A9A7007E5044 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +122,9 @@
 			children = (
 				1B88B6D01D74A9A7007E5044 /* AppDelegate.swift */,
 				1B88B6D21D74A9A7007E5044 /* ViewController.swift */,
+				1B69DEFE1D74D20E00588580 /* AlamofireRequest+JSONSerializable.swift */,
+				1B69DEFA1D74C96200588580 /* Todo.swift */,
+				1B69DEFC1D74CC6200588580 /* TodoRouter.swift */,
 				1B88B6D41D74A9A7007E5044 /* Main.storyboard */,
 				1B88B6D71D74A9A7007E5044 /* Assets.xcassets */,
 				1B88B6D91D74A9A7007E5044 /* LaunchScreen.storyboard */,
@@ -428,6 +437,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B88B6D31D74A9A7007E5044 /* ViewController.swift in Sources */,
+				1B69DEFB1D74C96200588580 /* Todo.swift in Sources */,
+				1B69DEFD1D74CC6200588580 /* TodoRouter.swift in Sources */,
+				1B69DEFF1D74D20E00588580 /* AlamofireRequest+JSONSerializable.swift in Sources */,
 				1B88B6D11D74A9A7007E5044 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
